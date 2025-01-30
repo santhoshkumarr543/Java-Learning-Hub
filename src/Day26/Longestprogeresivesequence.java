@@ -17,7 +17,7 @@ public class Longestprogeresivesequence {
 
     public static void find(int n, int[] arr) {
         // TODO: Implement logic here
-        List<Integer> list = new ArrayList<>();
+        //List<Integer> list = new ArrayList<>();
         int max = 1;
         int i = 0,j = 1;
         int l = 0,r = 0;
@@ -33,8 +33,8 @@ public class Longestprogeresivesequence {
             j++;
         }
         for(int k = l;k<=r;k++){
-            list.add(arr[k]);
+            System.out.print(arr[k] + " ");
         }
-        System.out.println(list);
+        //System.out.println(list);
     }
 }
